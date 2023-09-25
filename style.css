@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    position: relative;
+}
+.left{
+    height: 100%;
+    width: 38%;
+    background-color: #a9a9a988;
+    position: relative;
+}
+.left #text{
+    font-size: 4.5vh;
+    line-height: 73px;
+    position: absolute;
+    top: 17%;
+    left: 2%;
+    transform: translate(0,0);
+}
+.left h2{
+    margin-top:3vh ;
+    font-size: 4vh;
+    font-weight: 700;
+}
+.left p{
+    /* margin-top: 2vh; */
+    font-size: 20px;
+    line-height: 20px;
+    word-spacing:0px;
+    width: 80%;
+    font-weight: 500;
+}
+.left #text span{
+    font-weight: 400;
+}
+.left button{
+    width: 8vw;
+    height: 4.4vh;
+    cursor: pointer;
+    font-size: 2.5vh;
+    font-weight: 600;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5vh;
+    border:none;
+}
+#bottom{
+    position: absolute;
+    width: 100%;
+    height: min-content;
+    background-color: white;
+    padding: 4vh 3vw;
+    bottom: 0;
+    
+}
+#bottom>p{
+    font-size: 20px;
+    width: 100%;
+}
+.right{
+    height: 100%;
+    width: 62%;
+    background-color: rgb(131, 131, 131);
+    position: relative;
+}
+.right img{
+    height:95vh;
+    position: absolute;
+    top: -7.8%;
+    left: -35%;
+    transform: translate(-50%,-50%);
+    transform: rotate(-30deg);
+}
+.centre{
+    position: absolute;
+    top: 25%;
+    left: 24%;
+}
+.centre h1{
+    font-size: 11vh;
+    height: 100%;
+    width: 100%;
+}
+.centre h1 span{
+    color: white;
+}
+.centre h2{
+     font-size: 4.5vh;
+     line-height: 10px;
+     font-weight: 500;
+}
+.centre h2 span{
+    color:white;
+    font-weight: 900;
+}
+.btn{
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+.btn button{
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 2vh;
+    padding: 10px  20px;
+
+}
+.btn button:nth-child(1){
+   color: rgb(202, 202, 202);
+   background-color: rgba(0, 0, 0, 0.708);
+   cursor: pointer;
+   border:none;
+   font-weight: 400;
+}
+.btn button:nth-child(2){
+    color: rgb(202, 202, 202);
+    background: transparent;
+    border: none;
+    cursor:pointer;
+    outline: 1px solid rgb(96, 96, 96);
+    font-weight: 800;
+    border-radius: 30px;
+ }
